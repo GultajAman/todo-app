@@ -1,0 +1,92 @@
+////////////////////////////////////////// NAVBAR
+.nav {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: space-between;
+  h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 15px;
+    color: #ffffff;
+  }
+  img {
+    width: 21px;
+    height: 21px;
+  }
+}
+
+////////////////////////////////////////// CREATE SECTION
+.create-form {
+  display: flex;
+  margin-top: 4rem;
+  // width: 40rem;
+
+  input {
+    width: 100%;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.25px;
+    padding: 2rem 3.5rem 2rem 5.2rem;
+    color: #9495a5;
+    outline: none;
+  }
+}
+//////////////////////////////////////////// TODO
+.todo {
+  margin-top: 2.4rem;
+  ul {
+    list-style: none;
+    background: #ffffff;
+    box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+    border-radius: 5px;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    padding: 2.4rem 1.9rem;
+    border-bottom: 1px solid #e3e4f1;
+  }
+  input {
+    margin-right: 2rem;
+  }
+  span {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.25px;
+    color: #494c6b;
+  }
+  span.checked {
+    text-decoration: line-through;
+  }
+  .allbuttons {
+    padding: 1.6rem 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+  button {
+    border: none;
+    outline: none;
+    font-family: Josefin Sans;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: -0.194444px;
+    color: #9495a5;
+  }
+}
+/////////////////////////////////////////// FOOTER
+footer {
+  padding-top: 4.9rem;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: -0.194444px;
+  // color: #9495a5;
+  color: white;
+}

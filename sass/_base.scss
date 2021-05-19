@@ -1,0 +1,32 @@
+:root {
+  --color-white: #fff;
+  --color-very-light-gray: hsl(0, 0%, 98%);
+  --color-very-light-grayish-blue: hsl(236, 33%, 92%);
+  --color-light-grayish: hsl(233, 11%, 84%);
+  --color-dark-grayish: #9394a5;
+  --color-very-dark: hsl(235, 19%, 35%);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  // color: var(--color-dark-grayish);
+  background-color: #7491f8;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 45rem;
+}

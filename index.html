@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Frontend Mentor | Todo app</title>
+</head>
+
+<body>
+  <nav class="nav container">
+    <h1>todo</h1>
+    <img src="./images/icon-moon.svg" alt="" />
+  </nav>
+  <!-- <header>
+    </header> -->
+  <form class="create-form container">
+    <input type="text" placeholder="Create a new todo" />
+  </form>
+  <section class="container todo">
+    <ul class="todos-list"></ul>
+    <div class="allbuttons">
+      <div class="firstpart">
+        <button>5 items left</button>
+      </div>
+      <div class="middlepart">
+        <button class="bluebutton">All</button>
+        <button>Active</button>
+        <button>Completed</button>
+      </div>
+      <div class="lastpart">
+        <button>Clear Completed</button>
+      </div>
+    </div>
+  </section>
+  <footer class="container">
+    <h3>Drag and drop to reorder list</h3>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
